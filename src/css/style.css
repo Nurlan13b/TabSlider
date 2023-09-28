@@ -1,0 +1,43 @@
+/* Style for the slider container */
+.slider {
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width to your preference */
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Style for the slider images */
+  .slider-content img {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  /* Style for the previous and next buttons (you can customize these further) */
+  .prev-button, .next-button {
+    background-color: aqua;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    transition: 0.5s;
+    border-radius: 50%;
+  }
+  
+  .prev-button {
+    left: 0;
+  }
+  .prev-button:hover {
+    background-color: red;}
+  
+  
+  .next-button {
+    right: 0;
+  }
+  .next-button:hover {
+    background-color: red;}
+  
